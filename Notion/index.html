@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    
+    <title>Test</title>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <div class="text__h1">
+                Добавление товара 
+            </div>
+            <div class="btn__header">
+                <button class="btn__header__filter">
+                    По умолчанию <img class="delIcon" src="/img/Rectangle 33.svg">
+                </button>
+            </div>
+        </div>
+    </header>
+    
+    <div class="content">
+    
+        <form class="zone_1" id="form" name="form">
+            <div class="zone_1__content">
+                <p class="input_1">
+                    Наименование товара<span class="redNotice">*</span> <br>
+                    <input data-rule="targetName" type="text" placeholder=" Введите наименование" id="name" name="name" data-reg="^[А-ЯЁ][а-яё]*$">
+                </p>
+                <p class="input_2">
+                    Описание товара <br>
+                    <textarea data-rule="targetComment" class="comment" placeholder=" Введите описание" id="description" name="description" data-reg="^[а-яА-ЯёЁa-zA-Z0-9]+$"></textarea>
+                </p>
+                <p class="input_3">
+                    Ссылка на изображение товара<span class="redNotice">*</span> <br>
+                    <input data-rule="targetHref" type="text"  placeholder=" Введите ссылку" id="url" name="url" datd-reg="(https?):((//)|(\\\\))+[\w\d:#@%/;$()~_?\+-=\\\.&]*">
+                </p>
+                <p class="input_4">
+                    Цена товара<span class="redNotice">*</span> <br>
+                    <input data-rule="targetPrice" type="text" placeholder=" Введите цену" id="price" name="price" data-reg="^[1-9]+[0-9]*$">
+                </p>
+                <button data-rule="btnConfirm" class="btn__confirm" id="btn__confirm" name="btn__confirm">
+                    Добавить товар
+                </button>
+            </div>
+        </form>
+        <script src="/index.js"></script>
+        <div class="content__container">
+            <div class="content__container__z">
+                <img src="/img/Rectangle 31.png">
+                <div class="content__container__z__header">
+                    Наименование товара
+                </div>
+                <div class="content__container__z__text">
+                    Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк
+                </div>
+                <div class="content__container__z__price">
+                    10 000 руб.
+                </div>
+            </div>
+            <div class="content__container__z">
+                <img src="/img/Rectangle 31.png">
+                <div class="content__container__z__header">
+                    Наименование товара
+                </div>
+                <div class="content__container__z__text">
+                    Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк
+                </div>
+                <div class="content__container__z__price">
+                    10 000 руб.
+                </div>
+            </div>
+            <div class="content__container__z">
+                <img src="/img/Rectangle 31.png">
+                <div class="content__container__z__header">
+                    Наименование товара
+                </div>
+                <div class="content__container__z__text">
+                    Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк
+                </div>
+                <div class="content__container__z__price">
+                    10 000 руб.
+                </div>
+            </div>
+            <div class="content__container__z">
+                <img src="/img/Rectangle 31.png">
+                <div class="content__container__z__header">
+                    Наименование товара
+                </div>
+                <div class="content__container__z__text">
+                    Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк
+                </div>
+                <div class="content__container__z__price">
+                    10 000 руб.
+                </div>
+            </div>
+            <div class="content__container__z">
+                <img src="/img/Rectangle 31.png">
+                <div class="content__container__z__header">
+                    Наименование товара
+                </div>
+                <div class="content__container__z__text">
+                    Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк
+                </div>
+                <div class="content__container__z__price">
+                    10 000 руб.
+                </div>
+            </div>
+            <div class="content__container__z">
+                <img src="/img/Rectangle 31.png">
+                <div class="content__container__z__header">
+                    Наименование товара
+                </div>
+                <div class="content__container__z__text">
+                    Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк
+                </div>
+                <div class="content__container__z__price">
+                    10 000 руб.
+                </div>
+            </div>
+            <div class="content__container__z">
+                <img src="/img/Rectangle 31.png">
+                <div class="content__container__z__header">
+                    Наименование товара
+                </div>
+                <div class="content__container__z__text">
+                    Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк
+                </div>
+                <div class="content__container__z__price">
+                    10 000 руб.
+                </div>
+            </div>
+            <div class="content__container__z">
+                <img src="/img/Rectangle 31.png">
+                <div class="content__container__z__header">
+                    Наименование товара
+                </div>
+                <div class="content__container__z__text">
+                    Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк
+                </div>
+                <div class="content__container__z__price">
+                    10 000 руб.
+                </div>
+            </div>
+            <div class="content__container__z">
+                <img src="/img/Rectangle 31.png">
+                <div class="content__container__z__header">
+                    Наименование товара
+                </div>
+                <div class="content__container__z__text">
+                    Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк
+                </div>
+                <div class="content__container__z__price">
+                    10 000 руб.
+                </div>
+            </div>
+            <div class="content__container__z">
+                <img src="/img/Rectangle 31.png">
+                <div class="content__container__z__header">
+                    Наименование товара
+                </div>
+                <div class="content__container__z__text">
+                    Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк
+                </div>
+                <div class="content__container__z__price">
+                    10 000 руб.
+                </div>
+            </div>
+            <div class="content__container__z">
+                <img src="/img/Rectangle 31.png">
+                <div class="content__container__z__header">
+                    Наименование товара
+                </div>
+                <div class="content__container__z__text">
+                    Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк
+                </div>
+                <div class="content__container__z__price">
+                    10 000 руб.
+                </div>
+            </div>
+            <div class="content__container__z">
+                <img src="/img/Rectangle 31.png">
+                <div class="content__container__z__header">
+                    Наименование товара
+                </div>
+                <div class="content__container__z__text">
+                    Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк
+                </div>
+                <div class="content__container__z__price">
+                    10 000 руб.
+                </div>
+            </div>
+            <div class="content__container__z">
+                <img src="/img/Rectangle 31.png">
+                <div class="content__container__z__header">
+                    Наименование товара
+                </div>
+                <div class="content__container__z__text">
+                    Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк
+                </div>
+                <div class="content__container__z__price">
+                    10 000 руб.
+                </div>
+            </div>
+
+
+    </div>
+</body>
+</html>
